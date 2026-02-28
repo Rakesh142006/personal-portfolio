@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rakesh Prajapati - Portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Rakesh Prajapati</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="about" class="hero">
+      <div class="hero-left">
+        <img src="image.jpeg" alt="Rakesh Prajapati" class="profile-img" />
+      </div>
+      <div class="hero-right">
+        <h1>Hi, I'm <span class="highlight">Rakesh Prajapati</span></h1>
+        <h2>Paython & Django Devloper</h2>
+        <p class="p">
+          I build modern, scalable web applications using Django and clean
+          frontend design. Passionate about backend development and real-world
+          problem solving.
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </header>
+
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <!-- <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>
+            A brief description of what this project does and the tech used.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>
+            A brief description of what this project does and the tech used.
+          </p>
+        </div>
+      </div> -->
+      <div class="project-cards">
+        <a
+          href="https://github.com/Rakesh142006/babysitter-.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="card"
+        >
+          <h4>Baby sitter</h4>
+          <p>
+            A Django-based platform connecting parents with verified sitters, real-time booking management.
+          </p>
+        </a>
+
+        <a href="https://github.com/Rakesh142006/expance_tracker" target="_blank" rel="noopener noreferrer" class="card">
+          <h4>Expence Tracker</h4>
+          <p>
+            The ability to quickly add, edit, or delete income and expense entries.
+          </p>
+        </a>
+      </div>
+    </section>
+    <div id="skill" class="skills-container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div class="progress python"></div></div>
+      </div>
+      <div class="skill">
+        <span>Django</span>
+        <div class="bar"><div class="progress django"></div></div>
+      </div>
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div class="progress html"></div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div class="progress css"></div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-content">
+        <div>
+          <h3>Let's Work Together</h3>
+          <p>Email: rkp97840036@gmail.com</p>
+          <p>Location: Ahmedabad, India</p>
+          <a href="https://www.linkedin.com/in/rakesh-prajapati-ab7776360/" class="btn">linked in</a>
+          <a href="https://github.com/Rakesh142006" class="btn">Git Hub</a>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required="" />
+          <input type="email" placeholder="Your Email" required="" />
+          <textarea rows="5" placeholder="Your Message" required=""></textarea>
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <h2>Get In Touch</h2>
+      <p href="mailto:rkp97840036@gmail.com">Email: rkp97840036@gmail.com</p>
+      <p>Rakesh Prajapati</p>
+    </footer>
+  </body>
+</html>
